@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-video {
+    position: absolute;
+    z-index: -10;
+    right: 0;
+    bottom: 0;
+}
+
+@media (min-aspect-ratio:16/9) {
+    .bg-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.header {
+    background: rgb(0, 162, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 8%;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar {
+    margin-right: 30%;
+    display: flex;
+    margin-left: 3%;
+    font-weight: 500;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    margin-left: 1rem;
+    font-size: 18px;
+    cursor: default;
+}
+
+.navbar p {
+    color: rgb(80, 191, 255);
+    margin-left: 1rem;
+    font-size: 18px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.btn1 {
+    background: transparent;
+    padding: 6px 16px;
+    font-family: "Poppins", sans-serif;
+    border: 2px solid #fff;
+    border-radius: 360px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn2 {
+    background: rgb(0, 217, 255);
+    padding: 6px 16px;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-radius: 360px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background: rgb(248, 248, 0);
+    color: #000;
+}
+
+.home {
+    height: 153vh;
+    background: rgb(0, 162, 255);
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.home-content {
+    text-align: center;
+}
+
+.home-content h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin-top: 4rem;
+    font-weight: 700;
+}
+
+.home-content h2 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+
+.home-content img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.home-scan {
+    display: flex;
+    justify-content: center;
+}
+
+.scan {
+    background: white;
+    height: 60%;
+    padding: 20px;
+    width: 350px;
+    align-items: center;
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.scan h3 {
+    font-size: 23px;
+    width: 50px;
+    color: rgb(0, 162, 255);
+}
+
+.dompet-digital {
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 6% 10%;
+    background: #f8f8f8;
+}
+
+.dmpt-content {
+    max-width: 550px;
+}
+
+.dompet-digital h3 {
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(0, 162, 255);
+}
+
+.dompet-digital h1 {
+    font-size: 3rem;
+}
+
+.dompet-digital h2 {
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(184, 184, 184);
+    margin-bottom: 1rem;
+}
+
+.dompet-digital button {
+    font-size: 25px;
+    border: 3px solid rgb(0, 162, 255);
+    border-radius: 360px;
+    padding: 10px 25px;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 162, 255);
+    font-weight: 600;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.dompet-digital button:hover {
+    background: rgb(248, 248, 0);
+    color: #000;
+    border: 3px solid rgb(248, 248, 0);
+}
+
+.dmpt-content2 {
+    background: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    height: 80vh;
+}
+
+.dmpt-content2 img {
+    border-radius: 1px;
+    height: 67%;
+}
+
+.layanan-keuangan {
+    height: 95vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 6% 10%;
+    background: rgb(0, 162, 255);
+}
+
+.layanan-content {
+    max-width: 500px;
+}
+
+.layanan-keuangan h3 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.layanan-keuangan h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.layanan-keuangan h2 {
+    font-size: 21px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+}
+
+.layanan-keuangan button {
+    font-size: 25px;
+    border: 3px solid #fff;
+    border-radius: 360px;
+    padding: 6px 25px;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.layanan-keuangan button:hover {
+    background: rgb(248, 248, 0);
+    color: #000;
+    border: 3px solid rgb(248, 248, 0);
+}
+
+.layanan-content2 {
+    background: rgb(0, 162, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    height: 80vh;
+}
+
+.layanan-content2 img {
+    border-radius: 20px;
+    height: 67%;
+}
+
+.gaya-hidup {
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 6% 10%;
+    background: #f8f8f8;
+}
+
+.gaya-content {
+    max-width: 550px;
+}
+
+.gaya-hidup h3 {
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(0, 162, 255);
+}
+
+.gaya-hidup h1 {
+    font-size: 3rem;
+}
+
+.gaya-hidup h2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(184, 184, 184);
+    margin: 1rem;
+}
+
+.gaya-hidup button {
+    font-size: 25px;
+    border: 3px solid rgb(0, 162, 255);
+    border-radius: 360px;
+    padding: 10px 25px;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 162, 255);
+    font-weight: 600;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.gaya-hidup button:hover {
+    background: rgb(248, 248, 0);
+    color: #000;
+    border: 3px solid rgb(248, 248, 0);
+}
+
+.gaya-content2 {
+    background: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    height: 80vh;
+}
+
+.gaya-content2 img {
+    border-radius: 1px;
+    height:67%;
+}
+
+.keamanan {
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 6% 10%;
+    background: rgb(0, 162, 255);
+}
+
+.keamanan-content {
+    max-width: 550px;
+}
+
+.keamanan h3 {
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(223, 223, 223);
+}
+
+.keamanan h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.keamanan h2 {
+    font-size: 21px;
+    font-weight: 400;
+    color: rgb(223, 223, 223);
+}
+
+.keamanan-content2 {
+    background: rgb(0, 162, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    height: 65vh;
+}
+
+.keamanan-content2 img {
+    border-radius: 20px;
+    height: 75%;
+}
+
+.testimoni {
+    background: #f3f3f3;
+    height: 120vh;
+    padding: 6% 24%;
+}
+
+.testimoni h2.title {
+    color: rgb(0, 162, 255);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.testimoni h1.sub-title {
+    margin-bottom: 1.5rem;
+    font-size: 35px;
+}
+
+.test-content {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background: #fff;
+    max-width: 320px;
+    border-radius: 20px;
+    padding: 3%;
+}
+
+.container h1 {
+    font-size: 100px;
+    font-family: 'Arial', sans-serif;
+    height: 15%;
+}
+
+.container p {
+    font-size: 15px;
+    margin-bottom: 85%;
+}
+
+.container h2 {
+    font-size: 15px;
+}
+
+.container h4 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.test-content img {
+    margin-left: 1rem;
+}
+
+.footer {
+    background: rgb(0, 162, 255);
+    padding: 7% 15%;
+}
+
+.footer1 {
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+
+.footer1 ul {
+    list-style: none;
+}
+
+.footer1 h3 {
+    border-bottom: 3px solid #fff;
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+
+.footer1 ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    margin-bottom: 1rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.download-src {
+    display: flex;
+    align-items: center;
+    /* border-bottom: 1px solid #fff; */
+    padding-bottom: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.download-src p {
+    font-size: 17px;
+    color: #fff;
+    margin-right: 2rem;
+}
+
+.download-src img {
+    width: 17%;
+    margin-right: 1.5rem;
+}
+
+.sponsor {
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.sponsor p {
+    width: 45%;
+    margin-right: 1rem;
+}
+
+.sponsor img {
+    margin-right: 2rem;
+}
+
+.footer-end {
+    display: flex;
+    align-items: center;
+    background: rgb(1, 90, 150);
+    padding: 4% 15% 6% 15%;
+}
+
+.footer-end img {
+    margin-right: 1rem;
+}
+
+.footer-end p {
+    color: #fff;
+    margin-right: 2rem;
+    font-size: 17px;
+}
+
+.end-sc a {
+    color: #fff;
+    font-size: 28px;
+    margin-right: 8px;
+}
